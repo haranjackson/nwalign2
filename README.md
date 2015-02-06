@@ -7,7 +7,7 @@ nwalign2 takes the same input options as nwalign, and produces the same output. 
 
 To use nwalign2, download  nwalign2.m  and  simplegapmex2.cpp.  In MATLAB, navigate to the folder where the files are located and run the command "mex simplegapmex2.cpp". Now use nwalign2 as you would nwalign.
 
-## Upcoming Improvements
+## Notes
 
-- Incorporate 'ExtendGap' option.
-- When the 'Glocal' option is chosen, nwalign2 sometimes produces a slightly different result to nwalign. This will be fixed.
+- nwalign2 is missing the 'ExtendGap' option from nwalign.
+- When the 'Glocal' option is chosen, nwalign2 sometimes produces a slightly different result to nwalign. This only occurs when attempting to perform unrealistically short or mismatched alignments.
